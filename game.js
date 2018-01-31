@@ -18,7 +18,7 @@ var testWords = [
 var test = new Word(testWord)
 
 var list = testWords.map( x => new Word (x))
-console.log(JSON.stringify(list, null, 2))
+//console.log(JSON.stringify(list, null, 2))
 //var testGuess = 'a'
 //test.guess(testGuess)
 //console.log(test)
